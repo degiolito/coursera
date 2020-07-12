@@ -1,0 +1,97 @@
+* {
+box-sizing: border-box;
+}
+
+.mini-box{
+ padding: 2px;
+ border-bottom: 1px solid black;
+ margin-top: 0px;
+ border-left: 1px solid black;
+ width: 30%;
+ height: 25px;
+ float: right;
+ font-weight: bold;
+ font-size: 18px;
+ text-align: center;
+}
+
+#mini-box1{
+ background-color:  #cd6155;
+ color: black;
+}
+
+#mini-box2{
+ background-color: #A2D9CE;
+ color: black;
+}
+
+#mini-box3{
+ background-color:  #f4d03f;
+ color: black;
+}
+
+h1, body {
+ font-family: "Monaco", monospace;
+}
+
+h1 {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+p {
+ margin-top: 40px;
+ margin-right: 20px;
+ margin-left: 20px;
+ color: black;
+ font-weight: 300;
+ text-align: justify;
+}
+
+.box {	
+ border: 1px solid black;
+ background-color:  #DAF7A6;
+ height: 30%;
+ width: 95%;
+ margin-top: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 20px;
+
+}
+
+.row{
+ width: 100%;
+}
+
+/*** Desktop view ***/
+@media (min-width: 992px){
+
+.col-lg-4{
+ float: left;
+ width: 33%;
+}
+}
+
+/*** Tablet view ***/
+@media (min-width: 768px) and (max-width:991px){
+
+.col-md-6{
+ float: left;
+ width: 50%;
+}
+
+.col-md-12{
+ float: left;
+ width: 100%;
+}
+}
+
+/*** Mobile view ***/
+@media (max-width: 767px){
+
+.col-sm-12{
+ float: left;
+ width: 100%;
+}
+}
